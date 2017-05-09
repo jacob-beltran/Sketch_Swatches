@@ -1,9 +1,9 @@
 // Ant Design Colors
 // http://ant.design/docs/spec/colors
 
-var color_list = [ '#0071d4', '#0071d4', '#0071d4', '#ebebeb', '#e8e8e8', '#cfcfcf', '#ededed', '#032d6b', '#004888', '#ffffff', 'rgba(0,25,64,0.85)', '#222222', '#e8e8e8', '#ffffff', '#ffffff', '#073050', '#073050', '#e8e8e8', '#0071d4', '#0071d4', '#FFFFFF', '#0071d4', '#FFFFFF', '#FFFFFF', '#0071d4', '#FFFFFF', '#000000', '#0D0D0D', '#FFFFFF', '#222222', '#0071d4', '#0D0D0D', '#191919', '#262626', '#333333', '#4C4C4C', '#666666', '#7F7F7F', '#999999', '#B2B2B2', '#CCCCCC', '#D9D9D9', '#E5E5E5', '#F2F2F2', '#f8f8f8', '#FFFFFF', '#e8e8e8', '#006dcc', '#FFFFFF', '#FFFFFF', '#011534', '#022150', '#222222', '#000000', '#d8d8d8', '#0071d4', '#1790fb', '#0071d4', '#52aeff', '#032d6b' ];
 
 var init_kanoo_brand_colors = function(title) {
+    var color_list = [ "#032d6b", "#52aeff", "#0071d4", "#1790fb", "#0071d4", "#d8d8d8", "#000000", "#222222", "#022150", "#011534", "#FFFFFF", "#FFFFFF", "#006dcc", "#e8e8e8", "#FFFFFF", "#f8f8f8", "#F2F2F2", "#E5E5E5", "#D9D9D9", "#CCCCCC", "#B2B2B2", "#999999", "#7F7F7F", "#666666", "#4C4C4C", "#333333", "#262626", "#191919", "#0D0D0D", "#0071d4", "#222222", "#FFFFFF", "#0D0D0D", "#000000", "#FFFFFF", "#0071d4", "#FFFFFF", "#FFFFFF", "#0071d4", "#FFFFFF", "#0071d4", "#0071d4", "#e8e8e8", "#073050", "#073050", "#ffffff", "#ffffff", "#e8e8e8", "#222222", "rgba(0,25,64,0.85)", "#ffffff", "#004888", "#032d6b", "#ededed", "#cfcfcf", "#e8e8e8", "#ebebeb", "#0071d4", "#0071d4", "#0071d4" ];
     var colors = generateBrandColors( color_list );
 
     $(document).ready(function(){

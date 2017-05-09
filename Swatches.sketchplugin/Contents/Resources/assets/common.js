@@ -63,7 +63,7 @@ function getAllColors() {
 function generateBrandColors( color_list ) {
     var colors = [];
     for( var i = 0; i < color_list.length; i++ ) {
-        colors.push( [ 'brand' + ( i + 1 ), tinycolor( color_list[ i ] ).toHex() ] );
+        colors.push( [ 'brand' + ( i + 1 ), tinycolor( color_list[ i ] ).setAlpha( 1 ).toHex() ] );
     }
     return colors;
 }

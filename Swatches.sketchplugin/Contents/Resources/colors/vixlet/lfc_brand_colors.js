@@ -1,9 +1,9 @@
 // Ant Design Colors
 // http://ant.design/docs/spec/colors
 
-var color_list = [ '#E31B23', '#E31B23', '#fcd700', '#ebebeb', '#ffffff', '#cfcfcf', '#ededed', '#000000', '#a90f15', '#ffffff', 'rgba(0, 0, 0, 0.6)', '#000000', '#e8e8e8', '#FFFFFF', '#000000', '#000000', '#000000', '#e8e8e8', '#fcd700', '#000000', '#FFFFFF', '#E31B23', '#FFFFFF', '#FFFFFF', '#EC494E', '#FFFFFF', '#000000', '#0D0D0D', '#FFFFFF', '#222222', '#ED3740', '#0D0D0D', '#191919', '#262626', '#333333', '#4C4C4C', '#666666', '#7F7F7F', '#999999', '#B2B2B2', '#CCCCCC', '#D9D9D9', '#E5E5E5', '#F2F2F2', '#F8F8F8', '#FFFFFF', '#E8E8E8', '#E31B23', '#FFFFFF', '#FFFFFF', '#6E0D10', '#AA141A', '#222222', '#000000', '#FFFFFF', '#000000', '#E7363D', '#E31B23', '#FEC400', '#E31B23' ];
 
 var init_lfc_brand_colors = function(title) {
+    var color_list = [ "#E31B23", "#FEC400", "#E31B23", "#E7363D", "#000000", "#FFFFFF", "#000000", "#222222", "#AA141A", "#6E0D10", "#FFFFFF", "#FFFFFF", "#E31B23", "#E8E8E8", "#FFFFFF", "#F8F8F8", "#F2F2F2", "#E5E5E5", "#D9D9D9", "#CCCCCC", "#B2B2B2", "#999999", "#7F7F7F", "#666666", "#4C4C4C", "#333333", "#262626", "#191919", "#0D0D0D", "#ED3740", "#222222", "#FFFFFF", "#0D0D0D", "#000000", "#FFFFFF", "#EC494E", "#FFFFFF", "#FFFFFF", "#E31B23", "#FFFFFF", "#000000", "#fcd700", "#e8e8e8", "#000000", "#000000", "#000000", "#FFFFFF", "#e8e8e8", "#000000", "rgba(0, 0, 0, 0.6)", "#ffffff", "#a90f15", "#000000", "#ededed", "#cfcfcf", "#ffffff", "#ebebeb", "#fcd700", "#E31B23", "#E31B23" ];
     var colors = generateBrandColors( color_list );
 
     $(document).ready(function(){

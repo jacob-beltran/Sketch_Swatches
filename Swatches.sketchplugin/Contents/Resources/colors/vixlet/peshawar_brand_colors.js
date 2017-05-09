@@ -1,9 +1,9 @@
 // Ant Design Colors
 // http://ant.design/docs/spec/colors
 
-var color_list = [ '#FDC131', '#FDC131', '#0A314F', '#EBEBEB', '#FFFFFF', '#cfcfcf', '#ededed', '#0A314F', '#c89600', '#ffffff', 'rgba( 2, 32, 62, 0.8 )', '#222222', '#e8e8e8', '#FFFFFF', '#ffffff', '#073050', '#073050', '#e8e8e8', '#ffc20e', '#e5ac00', '#ffffff', '#ffc20e', '#ffffff', '#ffffff', '#e5ac00', '#ffffff', '#000000', '#0d0d0d', '#ffffff', '#222222', '#ffc20e', '#0d0d0d', '#191919', '#262626', '#333333', '#4c4c4c', '#666666', '#7f7f7f', '#999999', '#b2b2b2', '#cccccc', '#d9d9d9', '#e5e5e5', '#f2f2f2', '#f8f8f8', '#ffffff', '#e8e8e8', '#e5ac00', '#ffffff', '#ffffff', '#031626', '#05233b', '#222222', '#000000', '#ffffff', '#e5ac00', '#ffc20e', '#e5ac00', '#ffc20e', '#073050' ];
 
 var init_peshawar_brand_colors = function(title) {
+    var color_list = [ "#073050", "#ffc20e", "#e5ac00", "#ffc20e", "#e5ac00", "#ffffff", "#000000", "#222222", "#05233b", "#031626", "#ffffff", "#ffffff", "#e5ac00", "#e8e8e8", "#ffffff", "#f8f8f8", "#f2f2f2", "#e5e5e5", "#d9d9d9", "#cccccc", "#b2b2b2", "#999999", "#7f7f7f", "#666666", "#4c4c4c", "#333333", "#262626", "#191919", "#0d0d0d", "#ffc20e", "#222222", "#ffffff", "#0d0d0d", "#000000", "#ffffff", "#e5ac00", "#ffffff", "#ffffff", "#ffc20e", "#ffffff", "#e5ac00", "#ffc20e", "#e8e8e8", "#073050", "#073050", "#ffffff", "#FFFFFF", "#e8e8e8", "#222222", "rgba( 2, 32, 62, 0.8 )", "#ffffff", "#c89600", "#0A314F", "#ededed", "#cfcfcf", "#FFFFFF", "#EBEBEB", "#0A314F", "#FDC131", "#FDC131" ];
     var colors = generateBrandColors( color_list );
 
     $(document).ready(function(){

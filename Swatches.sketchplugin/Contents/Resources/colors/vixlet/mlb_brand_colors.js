@@ -1,9 +1,9 @@
 // Ant Design Colors
 // http://ant.design/docs/spec/colors
 
-var color_list = [ '#1282c7', '#1282c7', '#002663', '#ebebeb', '#ffffff', '#cfcfcf', '#ededed', '#002663', '#116fa9', '#FFFFFF', 'rgba(0, 26, 51, .7)', '#222222', '#e8e8e8', '#FFFFFF', '#ffffff', '#5b5b5b', '#002e5b', '#e8e8e8', '#ed3740', '#044a87', '#FFFFFF', '#1282C7', '#FFFFFF', '#FFFFFF', '#1282c7', '#FFFFFF', '#000000', '#0D0D0D', '#FFFFFF', '#222222', '#ed3740', '#0D0D0D', '#191919', '#262626', '#333333', '#4C4C4C', '#666666', '#7F7F7F', '#999999', '#B2B2B2', '#CCCCCC', '#D9D9D9', '#E5E5E5', '#F2F2F2', '#F8F8F8', '#FFFFFF', '#e8e8e8', '#1282c7', '#FFFFFF', '#FFFFFF', '#00162c', '#002244', '#222222', '#000000', '#FFFFFF', '#ed3740', '#1395e5', '#1282c7', '#ed3740', '#002e5b' ];
 
 var init_mlb_brand_colors = function(title) {
+    var color_list = [ "#002e5b", "#ed3740", "#1282c7", "#1395e5", "#ed3740", "#FFFFFF", "#000000", "#222222", "#002244", "#00162c", "#FFFFFF", "#FFFFFF", "#1282c7", "#e8e8e8", "#FFFFFF", "#F8F8F8", "#F2F2F2", "#E5E5E5", "#D9D9D9", "#CCCCCC", "#B2B2B2", "#999999", "#7F7F7F", "#666666", "#4C4C4C", "#333333", "#262626", "#191919", "#0D0D0D", "#ed3740", "#222222", "#FFFFFF", "#0D0D0D", "#000000", "#FFFFFF", "#1282c7", "#FFFFFF", "#FFFFFF", "#1282C7", "#FFFFFF", "#044a87", "#ed3740", "#e8e8e8", "#002e5b", "#5b5b5b", "#ffffff", "#FFFFFF", "#e8e8e8", "#222222", "rgba(0, 26, 51, .7)", "#FFFFFF", "#116fa9", "#002663", "#ededed", "#cfcfcf", "#ffffff", "#ebebeb", "#002663", "#1282c7", "#1282c7" ];
     var colors = generateBrandColors( color_list );
 
     $(document).ready(function(){
