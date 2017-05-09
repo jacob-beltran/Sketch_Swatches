@@ -171,18 +171,27 @@ header h1 {
     list-style: none;
 }
 .swatches button {
+    position: relative;
+    z-index: 1;
     display: block;
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
+    margin: 2px;
     overflow: hidden;
     text-indent: -9999px;
     border: 1px solid #fff;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25);
     background: #fff;
     box-sizing: border-box;
+    border-radius: 2px;
+    transition: transform 100ms ease-in-out;
+    transform: scale3d( 1, 1, 1 );
 }
 .swatches button.focus {
-    border: 2px solid #fff;
+    z-index: 2;
+    transform: scale3d( 1.1, 1.1, 1 );
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25), 0 0 0 1px rgba(0,0,0,0.55);
 }
 .swatches .colorgroup {
     clear: both;
