@@ -1,5 +1,33 @@
 var swatches = [
     {
+        "title" : "MLB Brand Colors",
+        "handler" : "init_mlb_brand_colors"
+    },
+    {
+        "title" : "ATP Brand Colors",
+        "handler" : "init_atp_brand_colors"
+    },
+    {
+        "title" : "Slipknot Brand Colors",
+        "handler" : "init_slipknot_brand_colors"
+    },
+    {
+        "title" : "LFC Brand Colors",
+        "handler" : "init_lfc_brand_colors"
+    },
+    {
+        "title" : "Peshawar Zalmi Brand Colors",
+        "handler" : "init_peshawar_brand_colors"
+    },
+    {
+        "title" : "Garanti Koza Brand Colors",
+        "handler" : "init_garantikoza_brand_colors"
+    },
+    {
+        "title" : "Kanoo Brand Colors",
+        "handler" : "init_kanoo_brand_colors"
+    },
+    {
         "title" : "Google Material Design",
         "handler" : "init_material_design_colors"
     },

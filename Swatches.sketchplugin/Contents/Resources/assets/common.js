@@ -59,3 +59,11 @@ function getAllColors() {
     });
     return JSON.stringify(colors);
 }
+
+function generateBrandColors( color_list ) {
+    var colors = [];
+    for( var i = 0; i < color_list.length; i++ ) {
+        colors.push( [ 'brand' + ( i + 1 ), tinycolor( color_list[ i ] ).toHex() ] );
+    }
+    return colors;
+}
